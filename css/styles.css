@@ -75,7 +75,7 @@ button:hover {
     transition: background-color 0.5s;
 }
 
-.convert {
+.projects {
     display: none;
     position: fixed;
     top: 0;
@@ -90,7 +90,7 @@ img {
     width: auto;
 }
 
-.content-convert {
+.content-project {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -135,6 +135,7 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    
 
 }
 

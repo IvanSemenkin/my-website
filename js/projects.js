@@ -10,3 +10,15 @@ openConvert.onclick = function () {
 closeConvert.onclick = function () {
     convert.style.display = 'none';
 };
+
+let les = document.getElementById('les');
+let openLes = document.getElementById('open-les');
+let closeLes = document.getElementById('close-les');
+
+openLes.onclick = function () {
+    les.style.display = 'block';
+};  
+
+closeLes.onclick = function () {        
+    les.style.display = 'none';
+};
