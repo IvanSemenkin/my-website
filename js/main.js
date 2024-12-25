@@ -10,6 +10,10 @@ let popup3 = document.getElementById('popup3');
 let openBtn3 = document.getElementById('openBtn3');
 let closeBtn3 = document.getElementById('closeBtn3');
 
+let popupIn = document.getElementById('popup-in');
+let openBtnIn = document.getElementById('openBtn-in');
+let closeBtnIn = document.getElementById('closeBtn-in');
+
 openBtn.onclick = function () {
     popup.style.display = 'block';
 }
@@ -32,6 +36,14 @@ openBtn3.onclick = function () {
 
 closeBtn3.onclick = function () {
     popup3.style.display = 'none';
+}
+
+openBtnIn.onclick = function () {
+    popupIn.style.display = 'block';
+}
+
+closeBtnIn.onclick = function () {
+    popupIn.style.display = 'none';
 }
 
 // Общая функция для закрытия попапа при клике за его пределами
