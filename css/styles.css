@@ -2,6 +2,7 @@ body {
     background-color: #65A6D1;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(50, 47, 47);
+    height: 1000px;
 }
 
 .main-block {
@@ -41,7 +42,8 @@ nav {
     margin-bottom: 10px;
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    position: relative; /* Добавим для управления позицией */
+    position: relative;
+    /* Добавим для управления позицией */
 }
 
 a {
@@ -94,6 +96,7 @@ img {
     border-radius: 10px;
     width: 500px;
     margin: 100px auto;
+    z-index: 100;
 }
 
 .popup {
@@ -128,30 +131,13 @@ img {
     color: red;
 }
 
-
-.container-footer {
-    display: flex;
-    justify-content: center;
-}
-
-footer {
-    text-align: center;
-    background-color: #177faf;
-    padding: 100px 0 20px 0;
-    color: white;
-    border-radius: 10px 10px 0 0;
-    height: 40px;
-    position: fixed;
-    bottom: 0;
-    width: 99%;
-}
-
 .container_projects {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    
+
 }
+
 .project {
     background-color: rgb(165, 231, 255);
     border-radius: 20px;
