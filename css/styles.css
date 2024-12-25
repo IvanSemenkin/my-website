@@ -129,14 +129,14 @@ img {
 }
 
 
-.container {
+.container-footer {
     display: flex;
     justify-content: center;
 }
 
 footer {
     text-align: center;
-    background-color: #63AFD0;
+    background-color: #177faf;
     padding: 100px 0 20px 0;
     color: white;
     border-radius: 10px 10px 0 0;
