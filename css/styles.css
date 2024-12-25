@@ -98,14 +98,31 @@ button:hover {
     font-size: 20px;
     color: black;
     cursor: pointer;
+    display: flex;
+    justify-content: end;
+}
+
+.close:hover {
+    color: red;
 }
 
 
+.container {
+    display: flex;
+    justify-content: center;
+}
 
-
-
-
-
+footer {
+    text-align: center;
+    background-color: rgb(45, 63, 123);
+    padding: 100px 0 20px 0;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+}
 
 
 @media (max-width: 600px) {
